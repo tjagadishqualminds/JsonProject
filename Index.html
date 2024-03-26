@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
+</head>
+<body>
+
+     <!-- modal -->
+
+     <div class="modal">
+
+         <form action="sumbit">
+             <label for="
+             Title">Title</label>
+             <input type="text" id="title">
+             <label for="body">Body</label>
+             <textarea name="Body" id="Body" cols="30" rows="10"></textarea>
+             <div class="btns">
+                <button class="add">
+                    Add
+                </button>
+                <button class="closebtn" class="Cancel">
+                    Cancel
+                </button>
+            </div>
+        </form>
+            <div class="close">
+                <a href="#" class="closebtn">X</a>  
+            </div>
+    </div>
+
+    <div id="update-modal">
+
+        <form action="sumbit">
+            <label for="
+            Title">Title</label>
+            <input type="text" id="Updatetitle">
+            <label for="body">Body</label>
+            <textarea name="Body" id="UpdateBody" cols="30" rows="10"></textarea>
+            <div class="btns">
+               <button class="Update">
+                   Update
+               </button>
+               <button class="closebtn" class="Cancel">
+                   Cancel
+               </button>
+           </div>
+       </form>
+           <div class="close">
+               <a href="#" class="closebtn">X</a>  
+           </div>
+   </div>
+    <!--  buttons -->
+    <div class="button">
+        <button class="btn">
+            Add Employee
+        </button>
+    </div>
+
+ 
+
+
+    <table id="tableData"  style="width:100%">
+        <tr>
+          <th>Id</th>
+          <th>Title</th>
+          <th>Body</th>
+          <th>Action</th>
+        </tr>
+        <TBody id="tableBody">
+
+            <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+                <td>
+                    <div class="btns">
+                        <button class="update">
+                            UPDATE
+                        </button>
+                        <button class="delete">
+                            DELETE
+                        </button>
+                    </div>
+                </td>
+            </tr>
+        </TBody>
+      </table>
+    <script src="./Script.js"></script>
+</body>
+</html>

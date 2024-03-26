@@ -1,0 +1,102 @@
+.button{
+    display: flex;
+    width: 100vw;
+    margin: auto;
+    justify-content: center;
+    margin-top: 10px;
+}
+.button  .btn {
+    background: aqua;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+table, th, td {
+    border:1px solid rgb(242, 238, 238);
+    background-color: rgb(99, 172, 172);
+    
+  }
+
+  table{
+    margin-top: 10px;
+  }
+  .btns{
+    display: flex;
+    gap: 1vw;
+    padding: 1vw;
+    cursor: pointer;
+  }
+  .update{
+    background: green;
+    border: none;
+    color: white;
+    padding: 5px;
+  }
+  .delete{
+    background: red;
+    border: none;
+    color: white;
+    padding: 5px;
+  }
+
+  .add{
+    background: green;
+    border: none;
+    color: white;
+    padding: 5px;
+  }
+  .Cancel{
+    background: red;
+    border: none;
+    color: white;
+    padding: 5px;
+  }
+
+  .sumbit{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .modal{
+    background-color: antiquewhite;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  #update-modal{
+    background-color: antiquewhite;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+  }
+  .close a {
+    position: absolute;
+    right: 10vw;
+    top: 3vh;
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+.closebtn{
+  background: red;
+    color: white;
+    border: none;
+    font-weight: 500;
+}
