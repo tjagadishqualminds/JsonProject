@@ -46,6 +46,7 @@ table, th, td {
     border: none;
     color: white;
     padding: 5px;
+    cursor: pointer;
   }
   .Cancel{
     background: red;
@@ -99,4 +100,5 @@ table, th, td {
     color: white;
     border: none;
     font-weight: 500;
+    cursor: pointer;
 }
